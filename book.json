@@ -1,0 +1,79 @@
+{
+  "gitbook": "3.2.2",
+  "title": "gitbook-notes",
+  "language" : "zh-hans",
+  "links" : {
+    "sidebar" : {
+      "Github首页" : "https://github.com/atlantis1024/gitbook-notes"
+    }
+  },
+  "plugins": [
+    "-highlight",
+    "-highlight",
+    "-livereload",
+    "-lunr",
+    "-search",
+    "anchor-navigation-ex",
+    "anchors",
+    "edit-link",
+    "emphasize",
+    "expandable-chapters-small",
+    "github",
+    "github-buttons",
+    "prism",
+    "search-plus",
+    "sectionx",
+    "simple-page-toc",
+    "splitter",
+    "tbfed-pagefooter",
+    "theme-comscore"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/atlantis1024/gitbook-notes/blob/master",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/atlantis1024/gitbook-notes"
+    },
+    "theme-default": {
+      "styles": {
+        "website": "styles/gitbook.css"
+      }
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright © victor zhang 2017",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": true,
+      "isRewritePageTitle": false,
+      "float": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      },
+      "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "fontsettings": {
+      "theme": "white",
+      "famliy": "serif",
+      "size": 1
+    },
+    "simple-page-toc": {
+      "maxDepth": 4,
+      "skipFirstH1": true
+    }
+  }
+}

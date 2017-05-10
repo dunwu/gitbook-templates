@@ -1,15 +1,12 @@
 # Summary
 
-### Part I
+## 简介
 
-* [Writing is nice](docs/part1/writing.md)
-* [GitBook is nice](docs/part1/gitbook.md)
+* [简介](README.md)
 
-### Part II
+## 基础
 
-* [We love feedback](docs/part2/feedback_please.md)
-* [Better tools for authors](docs/part2/better_tools.md)
-
-----
-
-* [Last part without title](docs/part3/title.md)
+* [安装](docs/basic/安装.md)
+* [命令](docs/basic/命令.md)
+* [结构](docs/basic/结构.md)
+* [配置](docs/basic/配置.md)

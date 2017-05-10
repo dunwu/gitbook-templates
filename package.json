@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf _book",
     "prepare": "gitbook install",
-    "build": "npm run prepare && gitbook build",
+    "build": "npm run prepare && gitbook build ./ --log=debug --debug",
     "start": "npm run build && gitbook serve",
     "publish": "npm run clean && npm start"
   },
