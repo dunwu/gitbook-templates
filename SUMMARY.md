@@ -10,3 +10,7 @@
 * [命令](docs/basic/命令.md)
 * [结构](docs/basic/结构.md)
 * [配置](docs/basic/配置.md)
+
+------
+
+* [术语](GLOSSARY.md)
