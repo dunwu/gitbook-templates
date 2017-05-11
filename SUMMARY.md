@@ -11,6 +11,10 @@
 * [结构](docs/basic/结构.md)
 * [配置](docs/basic/配置.md)
 
+## 进阶
+
+* [插件](docs/advance/插件.md)
+
 ------
 
 * [术语](GLOSSARY.md)
