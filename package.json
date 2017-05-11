@@ -4,7 +4,7 @@
   "description": "gitbook-notes",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf _book && rimraf node_modules",
+    "clean": "rimraf _book",
     "prepare": "gitbook install",
     "build": "npm run prepare && gitbook build ./ --log=debug --debug",
     "start": "npm run build && gitbook serve",
