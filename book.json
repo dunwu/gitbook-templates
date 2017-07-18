@@ -10,12 +10,11 @@
     }
   },
   "plugins": [
-    "-fontsettings",
     "-highlight",
     "-livereload",
     "-lunr",
     "-search",
-    "advanced-emoji@^0.2.1",
+    "advanced-emoji@^0.2.2",
     "anchor-navigation-ex@0.1.8",
     "anchors@^0.7.1",
     "disqus@^0.1.0",
@@ -66,11 +65,6 @@
     "favicon": {
       "shortcut": "assets/images/folder.ico",
       "bookmark": "assets/images/folder.ico"
-    },
-    "fontsettings": {
-      "theme": "white",
-      "famliy": "serif",
-      "size": 2
     },
     "github": {
       "url": "https://github.com/atlantis1024/gitbook-notes"
