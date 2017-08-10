@@ -1,27 +1,57 @@
 # gitbook-notes
 
 > gitbook-notes 是一个 GitBook 教程。展示了如何使用 GitBook 生成一本电子书。
->
-> GitBook 是使用 GitHub / Git 和 Markdown（或AsciiDoc）构建漂亮书籍的命令行工具（和Node.js库）。
->
 
-## 运行
+## :memo: 内容
 
-**环境要求：**本地必须安装了 Node.js。
+内容主要分为基础和进阶两部分。
 
-**安装 gitbook-cli：**
+**基础**
+
+* 安装
+* 命令
+* 结构
+* 配置
+
+**进阶**
+
+* 插件
+
+## :pushpin: 说明
+
+`docs` 目录遵循 [**GitBook**](https://github.com/GitbookIO/gitbook) 规范（Gitbook 配置选项在 book.json 中，可以按需修改），可以生成静态电子书网站，便于阅读。
+
+### 运行条件
+
+本地已安装 Node.js
+
+### 运行方法
+
+**安装gitbook-cli：**
 
 ```sh
 $ npm install -g gitbook-cli
 ```
 
-**运行本项目：**
+**生成静态资源文件：**
 
 ```sh
-$ npm start
+$ gitbook build
 ```
 
-## 资料
+**启动电子书网站：**
+
+```sh
+$ gitbook serve
+```
+
+打开浏览器，访问 http://localhost:4000
+
+## :triangular_ruler: 约定
+
+所有文档的编辑格式遵循 `markdown` 规范。
+
+## :books: 资料
 
 * [GitBook 官网](https://www.gitbook.com/)
 * [GitBook Github](https://github.com/GitbookIO/)
