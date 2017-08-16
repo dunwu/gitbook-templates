@@ -1,2 +1,2 @@
 build:
-  script: "bash -l build.sh"
+  script: "bash -l ./bin/build.sh"
