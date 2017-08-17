@@ -6,10 +6,10 @@
 
 ## 基础
 
-* [安装](basic/installation.md)
-* [命令](basic/commands.md)
-* [结构](basic/structure.md)
-* [配置](basic/settings.md)
+* [安装](basics/installation.md)
+* [命令](basics/commands.md)
+* [结构](basics/structure.md)
+* [配置](basics/settings.md)
 
 ## 进阶
 
