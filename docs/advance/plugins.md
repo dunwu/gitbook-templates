@@ -265,9 +265,8 @@ This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 
 ```
 {% raw %}
-<video id="my-video" class="video-js" controls preload="auto" width="100%"
-poster="https://zhangjikai.com/resource/poster.jpg" data-setup='{"aspectRatio":"16:9"}'>
-  <source src="https://zhangjikai.com/resource/demo.mp4" type='video/mp4' >
+<video id="my-video" class="video-js" controls preload="auto" width="100%" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="http://mp4.vjshi.com/2017-03-01/c320652a66451be5baa578879efc23ba.mp4" type='video/mp4' >
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
@@ -284,7 +283,7 @@ poster="https://zhangjikai.com/resource/poster.jpg" data-setup='{"aspectRatio":"
 ```
 <br />
 {% raw %}
-<video id="my-video" class="video-js" controls preload="auto" width="100%" poster="assets/images/poster.jpg" data-setup='{"aspectRatio":"16:9"}'>
+<video id="my-video" class="video-js" controls preload="auto" width="100%" data-setup='{"aspectRatio":"16:9"}'>
   <source src="http://mp4.vjshi.com/2017-03-01/c320652a66451be5baa578879efc23ba.mp4" type='video/mp4' >
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -394,7 +393,7 @@ Insert markdown content here (you should start with h3 if you use heading).
     "plugins": ["sitemap-general"],
     "pluginsConfig": {
         "sitemap-general": {
-            "prefix": "http://gitbook.zhangjikai.com"
+            "prefix": "https://github.com/atlantis1024"
         }
     }
 }
@@ -448,7 +447,7 @@ Insert markdown content here (you should start with h3 if you use heading).
 ],
 "pluginsConfig": {
     "tbfed-pagefooter": {
-        "copyright":"Copyright &copy zhangjikai.com 2017",
+        "copyright":"Copyright &copy Zhang Peng.com 2017",
         "modify_label": "该文件修订时间：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
     }

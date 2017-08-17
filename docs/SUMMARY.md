@@ -6,14 +6,14 @@
 
 ## 基础
 
-* [安装](basic/安装.md)
-* [命令](basic/命令.md)
-* [结构](basic/结构.md)
-* [配置](basic/配置.md)
+* [安装](basic/installation.md)
+* [命令](basic/commands.md)
+* [结构](basic/structure.md)
+* [配置](basic/settings.md)
 
 ## 进阶
 
-* [插件](advance/插件.md)
+* [插件](advance/plugins.md)
 
 ------
 

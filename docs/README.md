@@ -57,3 +57,4 @@ $ gitbook serve
 * [GitBook Github](https://github.com/GitbookIO/)
 * [GitBook 编辑器](https://www.gitbook.com/editor/osx)
 * [GitBook 帮助中心](http://help.gitbook.com/)
+* [GitBook 教程](http://gitbook.zhangjikai.com/plugins.html)
