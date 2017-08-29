@@ -13,7 +13,11 @@
 
 ## 进阶
 
-* [插件](advance/plugins.md)
+* [插件](advanced/plugins.md)
+
+## 附录
+
+* [资源](appendix/resources.md)
 
 ------
 
