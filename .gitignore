@@ -1,13 +1,38 @@
-# production
-_book
-npm-debug.log*
+################ JAVA ################
+# temp folders
+classes
+target
+logs
 
-# vscode
-.vscode/
+# temp files
+*.class
+*.jar
+*.war
 
-# library
+
+################ JAVASCRIPT ################
+# dependencies
 node_modules
 
-# intellij
-.idea/
+# temp folders
+build
+dist
+_book
+_jsdoc
+
+# temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bundle*.js
+
+
+################ IDEA ################
+.idea
 *.iml
+
+
+################ Eclipse ################
+.classpath
+.project

@@ -2,7 +2,7 @@
   "gitbook": "3.2.2",
   "title": "gitbook-notes",
   "description": "记录 GitBook 的配置和一些插件的使用",
-  "author": "victor zhang",
+  "author": "Zhang Peng",
   "output.name": "site",
   "language": "zh-hans",
   "root": "./docs",

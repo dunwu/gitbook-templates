@@ -50,19 +50,26 @@
 *.bin binary
 *.exe binary
 
-# 图片
+# images
 *.png binary
 *.jpg binary
 *.ico binary
 *.gif binary
 
-# 音视频
+# media
 *.mp3 binary
 *.swf binary
 
-# other doc
+# fonts
+*.eot binary
+*.svg binary
+*.ttf binary
+*.woff binary
+
+# others
 *.pdf binary
 *.doc binary
 *.docx binary
 *.xls binary
 *.xlsx binary
+*.xmind binary
