@@ -1,12 +1,10 @@
-# 结构
-
-## 内容概要
+## 目录
 
 <!-- toc -->
 
 ## GitBook 项目结构
 
-GitBook使用简单的目录结构。在 [SUMMARY](https://toolchain.gitbook.com/pages.html)  （即 `SUMMARY.md` 文件）中列出的所有Markdown / Asciidoc文件将被转换为HTML。多语言书籍结构略有不同。
+GitBook使用简单的目录结构。在 [SUMMARY](https://toolchain.gitbook.com/pages.html)  （即 `SUMMARY.md` 文件）中列出的所有 Markdown / Asciidoc 文件将被转换为 HTML。多语言书籍结构略有不同。
 
 一个基本的 GitBook 电子书结构通常如下：
 
@@ -50,11 +48,10 @@ test.md
 bin/*
 ```
 
-### 根目录
+### 项目与子目录集成
 
-For software projects, you can use a subdirectory (like `docs/`) to store the book for the project's documentation. You can configure the [`root` option](https://toolchain.gitbook.com/config.html) to indicate the folder where GitBook can find the book's files:
 
-对于软件项目，您可以使用子目录来存储文档。您可以通过配置根目录来指示 GitBook 去寻找该电子书的文件夹：
+对于软件项目，您可以使用子目录（如 `docs/` ）来存储项目文档的图书。您可以配置根选项来指示 GitBook 可以找到该图书文件的文件夹：
 
 ```
 .
@@ -74,15 +71,13 @@ For software projects, you can use a subdirectory (like `docs/`) to store the b
 
 ## Summary
 
-### 目录
-
 GitBook 使用 `SUMMARY.md` 文件来定义本书的章节和子章节的结构。 `SUMMARY.md` 文件用于生成本书的目录。
 
- `SUMMARY.md` 的格式是一个链接列表。链接的标题将作为章节的标题，链接的目标是该章节文件的路径。
+`SUMMARY.md` 的格式是一个链接列表。链接的标题将作为章节的标题，链接的目标是该章节文件的路径。
 
 向父章节添加嵌套列表将创建子章节。
 
-**简单的目录示例：**
+**简单示例：**
 
 ```
 # Summary
@@ -95,9 +90,11 @@ GitBook 使用 `SUMMARY.md` 文件来定义本书的章节和子章节的结�
     * [Better tools for authors](part2/better_tools.md)
 ```
 
-**含有锚点的目录示例：**
+每章都有一个专用页面（`part#/README.md`），并分为子章节。
 
-目录中的章节可以使用锚点（eg: `part1/README.md#writing`）指向文件的特定部分。
+**锚点**
+
+目录中的章节可以使用锚点指向文件的特定部分。
 
 ```
 # Summary
@@ -134,7 +131,7 @@ GitBook 使用 `SUMMARY.md` 文件来定义本书的章节和子章节的结�
 * [Last part without title](part3/title.md)
 ```
 
-部分只是章节组，没有专用页面，但根据主题，它将在导航中显示。
+Parts 只是章节组，没有专用页面，但根据主题，它将在导航中显示。
 
 ### 页面
 
