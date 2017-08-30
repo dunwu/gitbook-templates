@@ -1,3 +1,5 @@
+# Gitbook 配置
+
 > GitBook 允许您使用灵活的配置自定义您的电子书。
 >
 > 这些选项在 `book.json` 文件中指定。对于不熟悉 JSON 语法的作者，您可以使用 [JSONlint](http://jsonlint.com/) 等工具验证语法。

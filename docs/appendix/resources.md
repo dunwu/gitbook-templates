@@ -13,3 +13,7 @@
 ## 教程资源
 
 - [gitbook-use](https://github.com/zhangjikai/gitbook-use) by zhangjikai
+
+##  工具
+
+- [Gitbook 编辑器](https://www.gitbook.com/editor)
