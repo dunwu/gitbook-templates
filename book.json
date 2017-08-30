@@ -21,7 +21,6 @@
     "github@^2.0.0",
     "github-buttons@2.1.0",
     "edit-link@^2.0.2",
-    "disqus@^0.1.0",
     "prism@^2.1.0",
     "prism-themes@^0.0.2",
     "advanced-emoji@^0.2.1",
@@ -47,9 +46,6 @@
     "theme-default": {
       "showLevel": true
     },
-    "disqus": {
-      "shortName": "gitbook-notes"
-    },
     "prism": {
       "css": [
         "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
@@ -72,18 +68,11 @@
     },
     "sharing": {
       "weibo": true,
-      "facebook": true,
-      "twitter": true,
+      "facebook": false,
+      "twitter": false,
       "google": false,
       "instapaper": false,
-      "vk": false,
-      "all": [
-        "facebook",
-        "google",
-        "twitter",
-        "weibo",
-        "instapaper"
-      ]
+      "vk": false
     },
     "tbfed-pagefooter": {
       "copyright": "Copyright © Zhang Peng 2017",
@@ -135,8 +124,8 @@
       "tag": "b"
     },
     "favicon": {
-      "shortcut": "assets/images/favicon.ico",
-      "bookmark": "assets/images/favicon.ico"
+      "shortcut": "https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/favicon.ico",
+      "bookmark": "https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/favicon.ico"
     }
   }
 }
