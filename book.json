@@ -95,7 +95,7 @@
       "skipFirstH1": true
     },
     "edit-link": {
-      "base": "https://github.com/atlantis1024/gitbook-notes/edit/master",
+      "base": "https://github.com/atlantis1024/gitbook-notes/blob/master/docs",
       "label": "编辑此页面"
     },
     "sitemap-general": {
