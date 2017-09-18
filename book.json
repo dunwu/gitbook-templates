@@ -8,7 +8,7 @@
   "root": "./docs",
   "links": {
     "sidebar": {
-      "gitbook-notes": "https://github.com/atlantis1024/gitbook-notes"
+      "gitbook-notes": "https://github.com/zp1024/gitbook-notes"
     }
   },
   "plugins": [
@@ -52,10 +52,10 @@
       ]
     },
     "github": {
-      "url": "https://github.com/atlantis1024/gitbook-notes"
+      "url": "https://github.com/zp1024/gitbook-notes"
     },
     "github-buttons": {
-      "repo": "atlantis1024/gitbook-notes",
+      "repo": "zp1024/gitbook-notes",
       "types": [
         "star"
       ],
@@ -83,8 +83,8 @@
       "token": "98c1048ef34431fef7bec1693e4a15cf"
     },
     "donate": {
-      "wechat": "https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/weixin.jpg",
-      "alipay": "https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/zhifubao.jpg",
+      "wechat": "https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/weixin.jpg",
+      "alipay": "https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/zhifubao.jpg",
       "title": "",
       "button": "赏",
       "alipayText": "支付宝打赏",
@@ -95,11 +95,11 @@
       "skipFirstH1": true
     },
     "edit-link": {
-      "base": "https://github.com/atlantis1024/gitbook-notes/blob/master/docs",
+      "base": "https://github.com/zp1024/gitbook-notes/blob/master/docs",
       "label": "编辑此页面"
     },
     "sitemap-general": {
-      "prefix": "https://github.com/atlantis1024"
+      "prefix": "https://github.com/zp1024"
     },
     "anchor-navigation-ex": {
       "showLevel": false,
@@ -124,8 +124,8 @@
       "tag": "b"
     },
     "favicon": {
-      "shortcut": "https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/favicon.ico",
-      "bookmark": "https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/favicon.ico"
+      "shortcut": "https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/favicon.ico",
+      "bookmark": "https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/favicon.ico"
     }
   }
 }

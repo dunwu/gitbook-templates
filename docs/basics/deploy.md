@@ -8,11 +8,11 @@
 
 如下图所示，根据个人需求，选择一个模板创建你的电子书。
 
-![gitbook-settings](https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/gitbook-new-book.png)
+![gitbook-settings](https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/gitbook-new-book.png)
 
 **设置书的基本信息**
 
-![gitbook-settings](https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/gitbook-settings.png)
+![gitbook-settings](https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/gitbook-settings.png)
 
 **clone 到本地**
 
@@ -20,7 +20,7 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 
 如下图所示，拷贝 git 地址，然后 `git clone` 到本地。
 
-![gitbook-settings](https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/gitbook-clone.png)
+![gitbook-settings](https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/gitbook-clone.png)
 
 **发布**
 
@@ -28,7 +28,7 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 
 默认访问地址是：https://用户名.gitbooks.io/项目名/content/
 
-例如：我的用户名为 atlantis1024，一个电子书项目名为 test，则访问路径是： `https://atlantis1024.gitbooks.io/test/content/`
+例如：我的用户名为 zp1024，一个电子书项目名为 test，则访问路径是： `https://zp1024.gitbooks.io/test/content/`
 
 当然，如果你有自己的域名，也可以设置 Domains 选项，来指定访问路径为你的域。
 
@@ -38,11 +38,11 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 
 首先，你需要绑定你的 Github 账号。最简单的方式当然就是登录 Gitbook.com 时使用 Github  账号登录方式了。否则，你也可以在 Account Settings 中的 Github 设置选项中去进行绑定。
 
-![gitbook-settings](https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/gitbook-settings-github.png)
+![gitbook-settings](https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/gitbook-settings-github.png)
 
 绑定了 Github 账号后，你可以在新建电子书时，选择从一个指定的 Github 仓库导入电子书项目。参考下图：
 
-![gitbook-settings](https://raw.githubusercontent.com/atlantis1024/gitbook-notes/master/assets/images/gitbook-new-book-with-github.png)
+![gitbook-settings](https://raw.githubusercontent.com/zp1024/gitbook-notes/master/assets/images/gitbook-new-book-with-github.png)
 
 只要你指定的 Github 仓库中的文档内容符合 Gitbook 规范，Gitbook 就会自动根据你的每次更新去构建生成电子书网站。
 
@@ -52,9 +52,9 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 https://Github用户名.gitbooks.io/Github 仓库/content/
 ```
 
-例如：我的用户名为 atlantis1024，Github 仓库名为 gitbook-notes，则访问路径是：
+例如：我的用户名为 zp1024，Github 仓库名为 gitbook-notes，则访问路径是：
 
-[https://atlantis1024.gitbooks.io/gitbook-notes/content/](https://atlantis1024.gitbooks.io/gitbook-notes/content/)
+[https://zp1024.gitbooks.io/gitbook-notes/content/](https://zp1024.gitbooks.io/gitbook-notes/content/)
 
 ### 托管到 Github Pages
 
@@ -62,11 +62,11 @@ https://Github用户名.gitbooks.io/Github 仓库/content/
 
 **建立 xxx.github.io 仓库**
 
-要使用这个特性，首先，你必须建立一个严格遵循以下命名要求的仓库：`Github账号名.github.io`举例，我的 Github 账号为 atlantis1024，则这个仓库应该叫 `atlantis1024.github.io`。通常，这个仓库被用来作为个人或组织的博客。
+要使用这个特性，首先，你必须建立一个严格遵循以下命名要求的仓库：`Github账号名.github.io`举例，我的 Github 账号为 zp1024，则这个仓库应该叫 `zp1024.github.io`。通常，这个仓库被用来作为个人或组织的博客。
 
 **建立 gh-pages 分支**
 
-完成第1步后，在任意一个 Github 仓库中建立一个名为 `gh-pages` 的分支。只要 `gh-pages` 中的内容符合一个静态站点要求，就可以在如下地址中进行访问：`https://Github用户名.gitbooks.io/Github 仓库` 。例如：我的一个 Github 仓库名为 react-notes，则访问路径是：`https://atlantis1024.github.io/react-notes`
+完成第1步后，在任意一个 Github 仓库中建立一个名为 `gh-pages` 的分支。只要 `gh-pages` 中的内容符合一个静态站点要求，就可以在如下地址中进行访问：`https://Github用户名.gitbooks.io/Github 仓库` 。例如：我的一个 Github 仓库名为 react-notes，则访问路径是：`https://zp1024.github.io/react-notes`
 
 **自动化发布到 gh-pages**
 
@@ -108,5 +108,5 @@ git init
 git checkout -b gh-pages
 git add .
 git commit -am "Update"
-git push git@github.com:atlantis1024/gitbook-notes gh-pages --force"
+git push git@github.com:zp1024/gitbook-notes gh-pages --force"
 ```

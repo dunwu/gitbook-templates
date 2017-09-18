@@ -86,7 +86,7 @@ links
 ```json
 "links" : {
     "sidebar" : {
-        "Home" : "https://github.com/atlantis1024/gitbook-notes"
+        "Home" : "https://github.com/zp1024/gitbook-notes"
     }
 }
 ```

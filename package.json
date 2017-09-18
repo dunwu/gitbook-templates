@@ -10,10 +10,10 @@
     "start": "gitbook serve",
     "deploy": "gh-pages -d _book"
   },
-  "homepage": "http://atlantis1024.github.io/gitbook-notes",
+  "homepage": "http://zp1024.github.io/gitbook-notes",
   "repository": {
     "type": "git",
-    "url": "git@github.com:atlantis1024/gitbook-notes.git"
+    "url": "git@github.com:zp1024/gitbook-notes.git"
   },
   "keywords": [
     "gitbook"
@@ -31,7 +31,6 @@
     "gitbook-plugin-advanced-emoji": "^0.2.2",
     "gitbook-plugin-anchor-navigation-ex": "^1.0.10",
     "gitbook-plugin-anchors": "^0.7.1",
-    "gitbook-plugin-disqus": "^0.1.0",
     "gitbook-plugin-donate": "^1.0.2",
     "gitbook-plugin-edit-link": "^2.0.2",
     "gitbook-plugin-emphasize": "^1.1.0",
@@ -39,7 +38,7 @@
     "gitbook-plugin-favicon": "0.0.2",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-github-buttons": "^2.1.0",
-    "gitbook-plugin-include-codeblock": "^3.1.2",
+    "gitbook-plugin-include-codeblock": "^3.1.4",
     "gitbook-plugin-katex": "^1.1.4",
     "gitbook-plugin-local-video": "^1.0.1",
     "gitbook-plugin-prism": "^2.3.0",

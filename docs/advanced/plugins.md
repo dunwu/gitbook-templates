@@ -393,7 +393,7 @@ Insert markdown content here (you should start with h3 if you use heading).
     "plugins": ["sitemap-general"],
     "pluginsConfig": {
         "sitemap-general": {
-            "prefix": "https://github.com/atlantis1024"
+            "prefix": "https://github.com/zp1024"
         }
     }
 }
