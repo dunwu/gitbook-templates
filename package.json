@@ -10,10 +10,10 @@
     "start": "gitbook serve",
     "deploy": "gh-pages -d _book"
   },
-  "homepage": "http://zp1024.github.io/gitbook-notes",
+  "homepage": "http://dunwu.github.io/gitbook-notes",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zp1024/gitbook-notes.git"
+    "url": "git@github.com:dunwu/gitbook-notes.git"
   },
   "keywords": [
     "gitbook"
