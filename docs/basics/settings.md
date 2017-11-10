@@ -29,7 +29,7 @@ author
 例：
 
 ```json
-"author" : "victor zhang"
+"author" : "Zhang Peng"
 ```
 
 description
