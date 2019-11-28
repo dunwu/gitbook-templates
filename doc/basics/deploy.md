@@ -8,11 +8,11 @@
 
 如下图所示，根据个人需求，选择一个模板创建你的电子书。
 
-![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-new-book.png)
+![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-new-book.png)
 
 **设置书的基本信息**
 
-![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-settings.png)
+![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-settings.png)
 
 **clone 到本地**
 
@@ -20,7 +20,7 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 
 如下图所示，拷贝 git 地址，然后 `git clone` 到本地。
 
-![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-clone.png)
+![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-clone.png)
 
 **发布**
 
@@ -38,11 +38,11 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 
 首先，你需要绑定你的 Github 账号。最简单的方式当然就是登录 Gitbook.com 时使用 Github  账号登录方式了。否则，你也可以在 Account Settings 中的 Github 设置选项中去进行绑定。
 
-![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-settings-github.png)
+![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-settings-github.png)
 
 绑定了 Github 账号后，你可以在新建电子书时，选择从一个指定的 Github 仓库导入电子书项目。参考下图：
 
-![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-new-book-with-github.png)
+![gitbook-settings](https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-new-book-with-github.png)
 
 只要你指定的 Github 仓库中的文档内容符合 Gitbook 规范，Gitbook 就会自动根据你的每次更新去构建生成电子书网站。
 
@@ -52,9 +52,9 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 https://Github用户名.gitbooks.io/Github 仓库/content/
 ```
 
-例如：我的用户名为 dunwu，Github 仓库名为 gitbook-notes，则访问路径是：
+例如：我的用户名为 dunwu，Github 仓库名为 gitbook-templates，则访问路径是：
 
-[https://dunwu.gitbooks.io/gitbook-notes/content/](https://dunwu.gitbooks.io/gitbook-notes/content/)
+[https://dunwu.gitbooks.io/gitbook-templates/content/](https://dunwu.gitbooks.io/gitbook-templates/content/)
 
 ### 托管到 Github Pages
 
@@ -108,5 +108,5 @@ git init
 git checkout -b gh-pages
 git add .
 git commit -am "Update"
-git push git@github.com:dunwu/gitbook-notes gh-pages --force"
+git push git@github.com:dunwu/gitbook-templates gh-pages --force"
 ```

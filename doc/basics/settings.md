@@ -86,7 +86,7 @@ links
 ```json
 "links" : {
     "sidebar" : {
-        "Home" : "https://github.com/dunwu/gitbook-notes"
+        "Home" : "https://github.com/dunwu/gitbook-templates"
     }
 }
 ```
@@ -136,7 +136,7 @@ title
 例：
 
 ```json
-"title" : "gitbook-notes",
+"title" : "gitbook-templates",
 ```
 
 ## plugins
