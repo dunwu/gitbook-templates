@@ -8,6 +8,7 @@ classes
 target
 logs
 .mtj.tmp/
+publish
 
 # compiled files
 *.class
@@ -57,3 +58,5 @@ bundle*.js
 # ------------------------------- eclipse -------------------------------
 .classpath
 .project
+
+package-lock.json

@@ -1,13 +1,18 @@
 {
-  "name": "gitbook-faq-template",
-  "scripts": {
-    "prebuild": "gitbook install",
-    "build": "gitbook build ./ --log=debug --debug",
-    "start": "gitbook serve"
-  },
-  "dependencies": {
-    "gitbook-plugin-search-pro": "^2.0.2",
-    "gitbook-plugin-simple-page-toc": "^0.1.2",
-    "gitbook-plugin-theme-faq": "^1.2.1"
-  }
+	"name": "gitbook-faq-template",
+	"scripts": {
+		"clean": "rimraf _book",
+		"prebuild": "gitbook install",
+		"build": "npm run clean & gitbook build ./ --log=debug --debug",
+		"start": "gitbook serve"
+	},
+	"dependencies": {
+		"gitbook-plugin-search-pro": "^2.0.2",
+		"gitbook-plugin-simple-page-toc": "^0.1.2",
+		"gitbook-plugin-theme-faq": "^1.2.1"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.1.1",
+		"rimraf": "^3.0.0"
+	}
 }

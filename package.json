@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"clean": "rimraf publish",
+		"build": "sh scripts/build.sh",
+		"deploy": "gh-pages -d publish"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.1.1",
+		"rimraf": "^3.0.0"
+	}
+}

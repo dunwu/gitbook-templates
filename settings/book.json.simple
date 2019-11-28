@@ -1,13 +1,13 @@
 {
   "gitbook": "3.2.2",
-  "title": "gitbook-notes",
+  "title": "gitbook-templates",
   "description": "gitbook 学习笔记",
   "author": "Zhang Peng",
   "language": "zh-hans",
   "root": "./docs",
   "links": {
     "sidebar": {
-      "gitbook-notes": "https://github.com/dunwu/gitbook-notes"
+      "gitbook-templates": "https://github.com/dunwu/gitbook-templates"
     }
   },
   "plugins": [
@@ -45,7 +45,7 @@
       }
     },
     "edit-link": {
-      "base": "https://github.com/dunwu/gitbook-notes/blob/master",
+      "base": "https://github.com/dunwu/gitbook-templates/blob/master",
       "label": "编辑此页面"
     },
     "github": {

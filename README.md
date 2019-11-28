@@ -1,8 +1,8 @@
-# gitbook-notes
+# gitbook-templates
 
-> **gitbook-notes** 是一个 Gitbook 简易教程。介绍了使用 Gitbook 生成电子书的完整过程，内容包括：安装、命令、配置、文档结构、生成电子书、部署。
+> **gitbook-templates** 是一个 Gitbook 简易教程。介绍了使用 Gitbook 生成电子书的完整过程，内容包括：安装、命令、配置、文档结构、生成电子书、部署。
 >
-> 想看看 Gitbook 在线电子书效果，请猛戳这里：[gitbook-notes](https://dunwu.gitbooks.io/gitbook-notes)
+> 想看看 Gitbook 在线电子书效果，请猛戳这里：[gitbook-templates](https://dunwu.gitbooks.io/gitbook-templates)
 
 ## 概述
 
@@ -434,7 +434,7 @@ links
 ```json
 "links" : {
     "sidebar" : {
-        "Home" : "https://github.com/dunwu/gitbook-notes"
+        "Home" : "https://github.com/dunwu/gitbook-templates"
     }
 }
 ```
@@ -485,7 +485,7 @@ title
 例：
 
 ```json
-"title" : "gitbook-notes",
+"title" : "gitbook-templates",
 ```
 
 ### plugins
@@ -617,11 +617,11 @@ $ sudo ln -s ~/Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
 
 如下图所示，根据个人需求，选择一个模板创建你的电子书。
 
-<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-new-book.png"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-new-book.png"/></div>
 
 **设置书的基本信息**
 
-<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-settings.png"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-settings.png"/></div>
 
 **clone 到本地**
 
@@ -629,7 +629,7 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 
 如下图所示，拷贝 git 地址，然后 `git clone` 到本地。
 
-<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-clone.png"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-clone.png"/></div>
 
 **发布**
 
@@ -649,7 +649,7 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 
 绑定了 Github 账号后，你可以在新建电子书时，选择从一个指定的 Github 仓库导入电子书项目。参考下图：
 
-<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/gitbook-new-book-with-github.png"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-new-book-with-github.png"/></div>
 
 只要你指定的 Github 仓库中的文档内容符合 Gitbook 规范，Gitbook 就会自动根据你的每次更新去构建生成电子书网站。
 
@@ -659,9 +659,9 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 https://Github用户名.gitbooks.io/Github 仓库/content/
 ```
 
-例如：我的用户名为 dunwu，Github 仓库名为 gitbook-notes，则访问路径是：
+例如：我的用户名为 dunwu，Github 仓库名为 gitbook-templates，则访问路径是：
 
-[https://dunwu.gitbooks.io/gitbook-notes/content/](https://dunwu.gitbooks.io/gitbook-notes/content/)
+[https://dunwu.gitbooks.io/gitbook-templates/content/](https://dunwu.gitbooks.io/gitbook-templates/content/)
 
 #### 托管到 Github Pages
 
@@ -715,7 +715,7 @@ git init
 git checkout -b gh-pages
 git add .
 git commit -am "Update"
-git push git@github.com:dunwu/gitbook-notes gh-pages --force"
+git push git@github.com:dunwu/gitbook-templates gh-pages --force"
 ```
 
 ## 参考资料

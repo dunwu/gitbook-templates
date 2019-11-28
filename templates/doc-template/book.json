@@ -3,7 +3,6 @@
 	"title": "gitbook-templates",
 	"description": "记录 GitBook 的配置和一些插件的使用",
 	"author": "Zhang Peng",
-	"output.name": "site",
 	"language": "zh-hans",
 	"root": "./docs",
 	"links": {
