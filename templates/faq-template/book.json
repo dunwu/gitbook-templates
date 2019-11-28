@@ -1,0 +1,15 @@
+{
+  "language": "zh-hans",
+  "plugins": [
+    "theme-faq",
+    "-lunr",
+    "search-pro@^2.0.2",
+    "simple-page-toc@^0.1.1"
+  ],
+  "pluginsConfig": {
+    "simple-page-toc": {
+      "maxDepth": 4,
+      "skipFirstH1": true
+    }
+  }
+}

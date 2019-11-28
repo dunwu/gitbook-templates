@@ -1,7 +1,6 @@
 {
   "name": "gitbook-notes",
   "version": "1.0.0",
-  "description": "gitbook-notes",
   "main": "index.js",
   "scripts": {
     "prepare": "gitbook install",
@@ -15,14 +14,10 @@
     "type": "git",
     "url": "git@github.com:dunwu/gitbook-notes.git"
   },
-  "keywords": [
-    "gitbook"
-  ],
   "author": "Zhang Peng",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "gitbook-cli": "^2.3.2",
     "rimraf": "^2.6.1"
   },
   "dependencies": {
@@ -41,6 +36,7 @@
     "gitbook-plugin-include-codeblock": "^3.1.4",
     "gitbook-plugin-katex": "^1.1.4",
     "gitbook-plugin-local-video": "^1.0.1",
+    "gitbook-plugin-mermaid": "0.0.9",
     "gitbook-plugin-prism": "^2.3.0",
     "gitbook-plugin-prism-themes": "0.0.2",
     "gitbook-plugin-search-plus": "0.0.11",

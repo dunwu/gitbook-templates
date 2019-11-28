@@ -1,0 +1,19 @@
+{
+	"language": "zh-hans",
+  "plugins": ["theme-api"],
+  "pluginsConfig": {
+    "theme-api": {
+      "languages": [
+        {
+          "lang": "js",
+          "name": "JavaScript",
+          "default": true
+        },
+        {
+          "lang": "java",
+          "name": "Java"
+        }
+      ]
+    }
+  }
+}
