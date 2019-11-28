@@ -1,0 +1,17 @@
+{
+  "name": "gitbook-notes",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare": "gitbook install",
+    "clean": "rimraf _book",
+    "build": "npm run clean & gitbook build ./ --log=debug --debug",
+    "start": "gitbook serve"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "gitbook-plugin-theme-api": "^1.1.2"
+  }
+}
