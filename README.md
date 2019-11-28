@@ -2,7 +2,13 @@
 
 > **gitbook-templates** 是一个 Gitbook 简易教程。介绍了使用 Gitbook 生成电子书的完整过程，内容包括：安装、命令、配置、文档结构、生成电子书、部署。
 >
-> 想看看 Gitbook 在线电子书效果，请猛戳这里：[gitbook-templates](https://dunwu.gitbooks.io/gitbook-templates)
+> 三种主题：
+>
+> 电子书： https://dunwu.github.io/gitbook-templates/doc/
+>
+> API：https://dunwu.github.io/gitbook-templates/api/
+>
+> 帮助中心：https://dunwu.github.io/gitbook-templates/faq/
 
 ## 概述
 
@@ -13,7 +19,6 @@ GitBook 可以将您的内容作为网站（可定制和可扩展）或电子书
 [GitBook.com](https://www.gitbook.com/) 是使用 GitBook 格式创建和托管图书的在线平台。它提供托管，协作功能和易于使用的编辑器。
 
 <div align="center"><img src="https://camo.githubusercontent.com/c1b6c55fca8e171120ce1fd73afcee699cc2a98f/68747470733a2f2f7261772e6769746875622e636f6d2f476974626f6f6b494f2f676974626f6f6b2f6d61737465722f707265766965772e706e67"/></div>
-
 ## GitBook 安装
 
 ### 本地安装
@@ -618,11 +623,9 @@ $ sudo ln -s ~/Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
 如下图所示，根据个人需求，选择一个模板创建你的电子书。
 
 <div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-new-book.png"/></div>
-
 **设置书的基本信息**
 
 <div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-settings.png"/></div>
-
 **clone 到本地**
 
 Gitbook.com 会为每本书创建一个 git 仓库。
@@ -630,7 +633,6 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 如下图所示，拷贝 git 地址，然后 `git clone` 到本地。
 
 <div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-clone.png"/></div>
-
 **发布**
 
 在本地按照 Gitbook 规范编辑电子书，然后 `git push` 到 Gitbook 的远程仓库。
@@ -650,7 +652,6 @@ Gitbook.com 会为每本书创建一个 git 仓库。
 绑定了 Github 账号后，你可以在新建电子书时，选择从一个指定的 Github 仓库导入电子书项目。参考下图：
 
 <div align="center"><img src="https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/gitbook-new-book-with-github.png"/></div>
-
 只要你指定的 Github 仓库中的文档内容符合 Gitbook 规范，Gitbook 就会自动根据你的每次更新去构建生成电子书网站。
 
 默认访问地址是：

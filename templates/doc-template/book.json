@@ -20,6 +20,7 @@
 		"github@^2.0.0",
 		"github-buttons@2.1.0",
 		"edit-link@^2.0.2",
+		"disqus@^0.1.0",
 		"prism@^2.1.0",
 		"prism-themes@^0.0.2",
 		"advanced-emoji@^0.2.1",
@@ -78,12 +79,15 @@
 			"token": "98c1048ef34431fef7bec1693e4a15cf"
 		},
 		"donate": {
-			"wechat": "https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/weixin.jpg",
-			"alipay": "https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/zhifubao.jpg",
+			"wechat": "https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/weixin.png",
+			"alipay": "https://raw.githubusercontent.com/dunwu/gitbook-templates/master/assets/images/zhifubao.png",
 			"title": "",
-			"button": "赏",
+			"button": "打赏",
 			"alipayText": "支付宝打赏",
 			"wechatText": "微信打赏"
+		},
+		"disqus": {
+			"shortName": "gitbook-templates"
 		},
 		"simple-page-toc": {
 			"maxDepth": 4,

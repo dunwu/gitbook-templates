@@ -247,7 +247,7 @@ This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 ```
 使用示例:
 
-[import](../../styles/website.css)
+[import](../../assets/styles/website.css)
 
 ## Local Video
 
