@@ -111,7 +111,7 @@ GitBook 使用 `SUMMARY.md` 文件来定义本书的章节和子章节的结�
     * [Better tools for authors](part2/README.md#tools)
 ```
 
-#### 部分
+**部分**
 
 目录可以分为以标题或水平线 `----` 分隔的部分：
 

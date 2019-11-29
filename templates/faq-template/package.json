@@ -1,10 +1,12 @@
 {
 	"name": "gitbook-faq-template",
 	"scripts": {
+		"start": "gitbook serve",
 		"clean": "rimraf _book",
-		"prebuild": "gitbook install",
+		"install": "gitbook install",
+		"serve": "gitbook serve",
 		"build": "npm run clean & gitbook build ./ --log=debug --debug",
-		"start": "gitbook serve"
+		"pdf": "gitbook pdf"
 	},
 	"dependencies": {
 		"gitbook-plugin-search-pro": "^2.0.2",
