@@ -11,5 +11,8 @@
       "maxDepth": 4,
       "skipFirstH1": true
     }
+	{
+		"plugins": ["mathjax"]
+	}
   }
 }
